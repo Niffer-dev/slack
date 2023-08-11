@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+body{
+    background-color: floralwhite;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a{
+    color: black;
+}
+
+.logo h4{
+    font-size: 20px;
+}
+
+.getStartedBtn{
+    background-color: purple;
+    padding: 4px 12px;
+    color: #fff;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+main h1{
+    font-size: 70px;
+}
+
+main p{
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+main div{
+    width: 50%;
+}
+
+main img{
+    width: 40%;
+}
+
+main .mainbtn1{
+    background-color: purple;
+    color: #fff;
+}
+main .mainbtn2{
+    background-color: rgb(184, 184, 180);
+    border: 1px solid purple;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: purple; */
+}
+main button{
+    padding: 15px 12px;
+}
